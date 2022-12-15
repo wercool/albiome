@@ -57,6 +57,14 @@ module.exports = {
           from: 'src/assets/favicon.ico',
           to: 'favicon.ico'
         },
+        {
+          from: 'src/assets/infusoria_frames',
+          to: 'assets/infusoria_frames'
+        },
+        {
+          from: 'src/assets/diatom',
+          to: 'assets/diatom'
+        },
       ],
     }),
     new ESLintPlugin({

@@ -1,5 +1,5 @@
-import ALBiome from './js/ALBiome';
+import ALBiome from './js/albiome/ALBiome';
 
-const ALBIOME = new ALBiome({
+new ALBiome({
   DOMContainer: document.getElementById('albiomeContainer')
 });
